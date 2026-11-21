@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    font-weight: 400;
+    height: 60px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.navbar-right {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.navbar img {
+    padding: 2px 40px;
+    width: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+    color: rgb(213, 2, 2);;
+}
+
+.main {
+    background-color: rgb(7, 2, 20);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    min-height: 500px;
+    height: auto;
+    background-color: #0B1218;
+    padding: 0px 100px;
+}
+
+.main-left {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    width: 500px;
+    flex: 1;
+    padding: 40px;
+}
+
+.main-left .hero {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.main-left .sub_hero {
+    color: rgb(177, 177, 177);
+}
+
+.main-left .sub_button button {
+    font-weight: 500;
+    color: white;
+    background-color: rgb(213, 2, 2);
+    padding: 14px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.main-left .sub_button button:hover {
+    background-color: rgb(156, 2, 2);
+}
+
+.main-right {
+    display: flex;
+    flex: 1;
+    padding: 40px;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-right a {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-right a img,
+.box a img {
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+}
+
+.main-right a img { 
+    width: 250px;
+    border: 3px solid rgb(213, 2, 2);
+    border-radius: 5px;
+}
+
+.information {
+    background-color: #111b23;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.hero-topic {
+    padding: 40px;
+    font-size: 40px;
+    font-weight: bolder;
+    align-self: center;
+}
+
+.box-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 30px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 150px;
+}
+
+.box a img {
+    width: 200px;
+    border: 2px solid rgb(213, 2, 2);
+    border-radius: 5px;
+}
+
+.box a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.box-main {
+    font-weight: 700;
+}
+
+.quote {
+    background-color: #1a262f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 50px;
+    gap: 20px;
+}
+
+.quote_main{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.quote_sub{
+    color: rgb(183, 5, 5);
+    font-weight: 500;
+}
+
+.hook {
+    background-color: #111b23;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.red_box {
+    padding: 50px 70px;
+    margin: 20px 140px;
+    width: auto;
+    background-color: rgb(45, 1, 1);
+    border: 1px solid rgb(162, 1, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.hook_text {
+    color: white;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.hook_btn button {
+    border: none;
+    background-color: #1a262f;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid rgb(62, 62, 62);
+    cursor: pointer;
+}
+
+.hook_btn button:hover {
+    background-color: #1c2832;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    background-color: #0f1d2a;
+    padding: 20px 0;
+    border-top: 1px solid rgb(62, 62, 62);
+}
